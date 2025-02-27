@@ -1,0 +1,39 @@
+@import 'bitebase-dashboard/variables';
+@import 'bitebase-dashboard/mixins';
+
+// Plugins CSS
+@import "bitebase-dashboard/plugins/plugin-animate-bootstrap-notify";
+@import "bitebase-dashboard/plugins/plugin-perfect-scrollbar";
+
+// Core CSS
+@import "bitebase-dashboard/buttons";
+@import "bitebase-dashboard/inputs";
+@import "bitebase-dashboard/typography";
+@import "bitebase-dashboard/misc";
+@import "bitebase-dashboard/checkboxes-radio";
+
+
+// components
+@import "bitebase-dashboard/navbar";
+@import "bitebase-dashboard/page-header";
+@import "bitebase-dashboard/dropdown";
+@import "bitebase-dashboard/alerts";
+@import "bitebase-dashboard/images";
+@import "bitebase-dashboard/nucleo-outline";
+@import "bitebase-dashboard/tables";
+@import "bitebase-dashboard/sidebar-and-main-panel";
+@import "bitebase-dashboard/footers";
+@import "bitebase-dashboard/fixed-plugin";
+
+// cards
+@import "bitebase-dashboard/cards";
+@import "bitebase-dashboard/cards/card-plain";
+@import "bitebase-dashboard/cards/card-chart";
+@import "bitebase-dashboard/cards/card-user";
+@import "bitebase-dashboard/cards/card-map";
+@import "bitebase-dashboard/cards/card-stats";
+
+@import "bitebase-dashboard/responsive";
+
+// html to react differences
+@import "bitebase-dashboard/react/react-differences.scss";
