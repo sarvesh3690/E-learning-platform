@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(rgb(118, 118, 193), white) repeat;
+    background-size: cover;
+    /* Ensures it covers the whole page */
+    background-attachment: fixed;
+    /* Keeps it fixed while scrolling */
+}
+
+
+.app {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.main-content {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.student-info {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.chart-table {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
